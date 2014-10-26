@@ -29,6 +29,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'faker', '1.1.2'
+
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -42,7 +46,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :development, :test do
-  gem 'rspec-rails', '2.13.1'
+  gem "rspec-rails", '~> 2.14.0.rc1'
 end
 
 group :test do
